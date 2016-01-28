@@ -1,7 +1,7 @@
 {
-  "name": "passport-kakao",
+  "name": "passport-kakao-token",
   "version": "0.0.3",
-  "description": "kakao oauth2 login module",
+  "description": "To Authenticate the Kakao login by using the Access Token",
   "main": "./lib/passport-kakao",
   "keywords": [
     "passport",
@@ -11,9 +11,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/rotoshine/passport-kakao.git"
+    "url": "git://github.com/hogangnono/passport-kakao-token.git"
   },
-  "author": "rotoshine@gmail.com",
+  "author": "hogangnono@gmail.com",
   "license": "MIT",
   "dependencies": {
     "pkginfo": "~0.3.0",
