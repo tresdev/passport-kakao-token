@@ -2,7 +2,7 @@
 
 This module provides to authenticate with an access token on connect middleware including express.js. It will be necessary to login on the Device.
 
-It forked from [passport-kakao](https://github.com/rotoshine/passport-kakao) and refered from [passport-facebook-token](https://github.com/drudge/passport-facebook-token).
+It forked from [passport-kakao-token](https://github.com/hogangnono/passport-kakao-token) and refered from [passport-facebook-token](https://github.com/drudge/passport-facebook-token) to send tokens as HTTP header or HTTP body.
 
 ## How to Use
 
