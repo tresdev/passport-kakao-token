@@ -7,9 +7,31 @@ It forked from [passport-kakao](https://github.com/rotoshine/passport-kakao) and
 ## How to Use
 
 You can authenticate with calling REST API like below.
+
+
+
+####  Sending access token as query parameter
 ```
 GET /auth/kakao/token?access_token=[ACCESS_TOKEN]
 ```
+
+
+####  Sending access token in HTTP body
+```
+POST /resource HTTP/1.1
+Host: server.example.com
+
+access_token=[ACCESS_TOKEN]
+```
+
+
+####  Sending access token as HTTP header
+```
+GET /auth/kakao/token
+Authorization: Bearer [ACCESS_TOKEN]
+```
+
+
 
 And you should define a routing on your connect-style codes.
 ```
