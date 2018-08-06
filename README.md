@@ -4,6 +4,11 @@ This module provides to authenticate with an access token on connect middleware 
 
 It forked from [passport-kakao-token](https://github.com/hogangnono/passport-kakao-token) to send tokens as HTTP header or HTTP body.
 
+## Installation
+```
+npm install passport-kakao-token2
+```
+
 ## How to Use
 
 You can authenticate with calling REST API like below.
