@@ -1,6 +1,6 @@
 {
   "name": "passport-kakao-token2",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Passport Authentication Strategy with KakaoTalk OAuth for API servers. Fork from passport-kakao-token.",
   "main": "./lib/passport-kakao",
   "keywords": [
